@@ -3,7 +3,7 @@ const express = require('express');
 const app = express()
 require("dotenv").config();
 
-const PORT = process.env.port || 4000
+const PORT = process.env.PORT || 4000
 
 // Middleware
 // for converting the json part of the request body
